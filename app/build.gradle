@@ -25,18 +25,18 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    flavorDimensions "type"
-    productFlavors {
-        free {
-            applicationId "com.udacity.gradle.builditbigger"
-            dimension = 'type'
-        }
-        paid {
-            applicationId "com.udacity.gradle.builditbigger"
-            dimension = 'type'
-
-        }
-    }
+//    flavorDimensions "type"
+//    productFlavors {
+//        free {
+//            applicationId "com.udacity.gradle.builditbigger"
+//            dimension = 'type'
+//        }
+//        paid {
+//            applicationId "com.udacity.gradle.builditbigger"
+//            dimension = 'type'
+//
+//        }
+//    }
 
 
     buildTypes {
