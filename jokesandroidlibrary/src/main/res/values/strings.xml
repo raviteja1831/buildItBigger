@@ -2,5 +2,5 @@
     <string name="app_name">JokesAndroidLibrary</string>
 
     <string name="jokes_fragment">This is Jokes fragment</string>
-    <string name="title_activity_jokes">JokesActivity</string>
+    <string name="title_activity_jokes">That\'s a good Joke</string>
 </resources>
