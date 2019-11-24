@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FinalProject.iml" filepath="$PROJECT_DIR$/FinalProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/FinalProject-app.iml" filepath="$PROJECT_DIR$/app/FinalProject-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/FinalProject-backend.iml" filepath="$PROJECT_DIR$/backend/FinalProject-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokeprovider/FinalProject-jokeprovider.iml" filepath="$PROJECT_DIR$/jokeprovider/FinalProject-jokeprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokesandroidlibrary/FinalProject-jokesandroidlibrary.iml" filepath="$PROJECT_DIR$/jokesandroidlibrary/FinalProject-jokesandroidlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildItBigger-FinalProject.iml" filepath="$PROJECT_DIR$/buildItBigger-FinalProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/jokeprovider/jokeprovider.iml" filepath="$PROJECT_DIR$/jokeprovider/jokeprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/jokesandroidlibrary/jokesandroidlibrary.iml" filepath="$PROJECT_DIR$/jokesandroidlibrary/jokesandroidlibrary.iml" />
     </modules>
