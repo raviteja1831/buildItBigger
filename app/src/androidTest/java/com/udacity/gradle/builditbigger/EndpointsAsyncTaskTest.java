@@ -19,16 +19,16 @@ import static org.junit.Assert.assertTrue;
 public class EndpointsAsyncTaskTest {
     @Rule
     public ActivityTestRule<MainActivity> activityTestRule = new ActivityTestRule<>(MainActivity.class);
-    Context context;
+    private Context context;
 
     @Test
-    public void VerifyTest() {
-        String joke;
+    public void verifyAtleastOneJokePresent() {
+        String randomJoke;
         context = InstrumentationRegistry.getTargetContext();
         try {
-            joke = new EndpointsAsyncTask().execute(context).get();
-            assertNotNull(joke);
-            assertTrue(joke.length() > 0);
+            randomJoke = new EndpointsAsyncTask().execute(context).get();
+            assertNotNull(randomJoke);
+            assertTrue(randomJoke.length() > 0);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
