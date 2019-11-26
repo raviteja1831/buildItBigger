@@ -19,12 +19,11 @@ import static org.junit.Assert.assertTrue;
 public class EndpointsAsyncTaskTest {
     @Rule
     public ActivityTestRule<MainActivity> activityTestRule = new ActivityTestRule<>(MainActivity.class);
-    private Context context;
 
     @Test
     public void verifyAtleastOneJokePresent() {
         String randomJoke;
-        context = InstrumentationRegistry.getTargetContext();
+        Context context = InstrumentationRegistry.getTargetContext();
         try {
             randomJoke = new EndpointsAsyncTask().execute(context).get();
             assertNotNull(randomJoke);
